@@ -1,0 +1,45 @@
+.Post {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.Post-content {
+  flex: 1;
+}
+
+.Post-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.Post-userInfo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.Post-userName {
+  color: #27aae1;
+  font-size: 14px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.Post-likeButton {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Post-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  border-top: 1px solid #e6e6e6;
+  line-height: 24px;
+  color: #6d6e71;
+}
+
+/*# sourceMappingURL=Post.css.map */

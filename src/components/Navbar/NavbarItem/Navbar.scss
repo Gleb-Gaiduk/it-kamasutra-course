@@ -1,0 +1,14 @@
+.NavbarItem {
+  list-style: none;
+  display: block;
+  padding: 15px 0;
+  color: #6d6e71;
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+}
+
+.NavbarItem_active {
+  li {
+    color: #27aae1;
+  }
+}

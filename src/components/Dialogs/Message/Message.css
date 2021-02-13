@@ -1,0 +1,48 @@
+.Message {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Message-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.Message-content {
+  background-color: rgba(141, 198, 63, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: relative;
+  flex: 1;
+}
+.Message-content:before {
+  border-bottom: 10px solid transparent;
+  border-right: 8px solid rgba(141, 198, 63, 0.1);
+  border-top: 10px solid transparent;
+  content: "";
+  height: 0;
+  left: -8px;
+  position: absolute;
+  top: 10px;
+  width: 0;
+}
+
+.Message-name {
+  border-bottom: 1px dotted #caef8e;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.Message-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  line-height: 26px;
+  color: #6d6e71;
+}
+
+/*# sourceMappingURL=Message.css.map */
